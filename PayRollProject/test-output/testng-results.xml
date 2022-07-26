@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-25T20:41:58 IST" name="Default suite" finished-at="2022-07-25T20:43:45 IST" duration-ms="106713">
+    <groups>
+      <group name="SMK">
+        <method signature="LoginTest.Login()[pri:-1, instance:TestCases.LoginTest@351d00c0]" name="Login" class="TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidlogin(java.lang.String,java.lang.String)[pri:1, instance:TestCases.LoginTest@351d00c0]" name="invalidlogin" class="TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidlogin2(java.lang.String,java.lang.String)[pri:2, instance:TestCases.LoginTest@351d00c0]" name="invalidlogin2" class="TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidloginblankpass()[pri:6, instance:TestCases.LoginTest@351d00c0]" name="invalidloginblankpass" class="TestCases.LoginTest"/>
+      </group> <!-- SMK -->
+      <group name="REG">
+        <method signature="LoginTest.invalidlogin3()[pri:3, instance:TestCases.LoginTest@351d00c0]" name="invalidlogin3" class="TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidloginblank()[pri:4, instance:TestCases.LoginTest@351d00c0]" name="invalidloginblank" class="TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidloginblankuser()[pri:5, instance:TestCases.LoginTest@351d00c0]" name="invalidloginblankuser" class="TestCases.LoginTest"/>
+      </group> <!-- REG -->
+      <group name="SNT">
+        <method signature="LoginTest.resetlink()[pri:7, instance:TestCases.LoginTest@351d00c0]" name="resetlink" class="TestCases.LoginTest"/>
+      </group> <!-- SNT -->
+    </groups>
+    <test started-at="2022-07-25T20:41:58 IST" name="Default test" finished-at="2022-07-25T20:43:45 IST" duration-ms="106713">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:41:58 IST" name="loadConfig" finished-at="2022-07-25T20:41:58 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:41:58 IST" name="firstCall" finished-at="2022-07-25T20:42:12 IST" duration-ms="13503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:12 IST" name="pageObjects" finished-at="2022-07-25T20:42:12 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="Login()[pri:-1, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:12 IST" name="Login" finished-at="2022-07-25T20:42:15 IST" duration-ms="2932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:15 IST" name="endbrowser" finished-at="2022-07-25T20:42:15 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:15 IST" name="firstCall" finished-at="2022-07-25T20:42:27 IST" duration-ms="11543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:27 IST" name="pageObjects" finished-at="2022-07-25T20:42:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="invalidlogin(java.lang.String,java.lang.String)[pri:1, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:27 IST" name="invalidlogin" data-provider="getlogin" finished-at="2022-07-25T20:42:27 IST" duration-ms="922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:27 IST" name="endbrowser" finished-at="2022-07-25T20:42:28 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:28 IST" name="firstCall" finished-at="2022-07-25T20:42:39 IST" duration-ms="11463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:39 IST" name="pageObjects" finished-at="2022-07-25T20:42:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="invalidlogin(java.lang.String,java.lang.String)[pri:1, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:39 IST" name="invalidlogin" data-provider="getlogin" finished-at="2022-07-25T20:42:41 IST" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:41 IST" name="endbrowser" finished-at="2022-07-25T20:42:41 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method signature="invalidlogin2(java.lang.String,java.lang.String)[pri:2, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:41 IST" name="invalidlogin2" finished-at="2022-07-25T20:42:41 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'u' is required by @Test on method invalidlogin2 but has not been marked @Optional or defined
+in C:\Users\Karthik\AppData\Local\Temp\testng-eclipse-2014765349\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'u' is required by @Test on method invalidlogin2 but has not been marked @Optional or defined
+in C:\Users\Karthik\AppData\Local\Temp\testng-eclipse-2014765349\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin2 -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:41 IST" name="firstCall" finished-at="2022-07-25T20:42:52 IST" duration-ms="11461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:52 IST" name="pageObjects" finished-at="2022-07-25T20:42:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="invalidlogin3()[pri:3, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:52 IST" name="invalidlogin3" finished-at="2022-07-25T20:42:54 IST" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin3 -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:54 IST" name="endbrowser" finished-at="2022-07-25T20:42:54 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:42:54 IST" name="firstCall" finished-at="2022-07-25T20:43:05 IST" duration-ms="11551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:05 IST" name="pageObjects" finished-at="2022-07-25T20:43:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="invalidloginblank()[pri:4, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:05 IST" name="invalidloginblank" finished-at="2022-07-25T20:43:06 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginblank -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:06 IST" name="endbrowser" finished-at="2022-07-25T20:43:06 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:06 IST" name="firstCall" finished-at="2022-07-25T20:43:18 IST" duration-ms="11818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:18 IST" name="pageObjects" finished-at="2022-07-25T20:43:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="invalidloginblankuser()[pri:5, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:18 IST" name="invalidloginblankuser" finished-at="2022-07-25T20:43:19 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginblankuser -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:19 IST" name="endbrowser" finished-at="2022-07-25T20:43:19 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:19 IST" name="firstCall" finished-at="2022-07-25T20:43:30 IST" duration-ms="11393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:30 IST" name="pageObjects" finished-at="2022-07-25T20:43:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="invalidloginblankpass()[pri:6, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:30 IST" name="invalidloginblankpass" finished-at="2022-07-25T20:43:31 IST" duration-ms="359" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password cannot be blank.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password cannot be blank.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at TestCases.LoginTest.invalidloginblankpass(LoginTest.java:148)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginblankpass -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:31 IST" name="endbrowser" finished-at="2022-07-25T20:43:31 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method is-config="true" signature="firstCall()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:31 IST" name="firstCall" finished-at="2022-07-25T20:43:42 IST" duration-ms="11200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCall -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:42 IST" name="pageObjects" finished-at="2022-07-25T20:43:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="resetlink()[pri:7, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:42 IST" name="resetlink" finished-at="2022-07-25T20:43:45 IST" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetlink -->
+        <test-method is-config="true" signature="endbrowser()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:45 IST" name="endbrowser" finished-at="2022-07-25T20:43:45 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endbrowser -->
+        <test-method is-config="true" signature="EndGame()[pri:0, instance:TestCases.LoginTest@351d00c0]" started-at="2022-07-25T20:43:45 IST" name="EndGame" finished-at="2022-07-25T20:43:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndGame -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="p" value="1q2w3e4r"/>
+  <parameter name="u" value="carol123"/>
+  <listeners>
+    <listener class-name="com.payroll.Utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.DeductionTest">
+        <methods>
+          <include name="EndGame"/>
+          <include name="endbrowser"/>
+          <include name="pageObjects"/>
+          <include name="firstCall"/>
+          <include name="create_deduction_blank"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- TestCases.DeductionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

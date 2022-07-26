@@ -1,0 +1,5 @@
+TestCases\LoginTest.class
+TestCases\DeductionTest.class
+TestCases\EditTsTest.class
+TestCases\HomeTest.class
+TestCases\TimesheetTest.class
